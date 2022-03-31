@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    margin-top: 2px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+        font-family: 'Open Sans', sans-serif;
+}
+
+*{text-decoration: none;}
+
+body{
+    font-family: 'Open Sans' ;
+ 
+    }
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(204, 194, 194, 0.384);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+
+}
+.header__ul{
+
+    padding: 5px;
+     
+    
+}
+.header__il{
+    height: 70px;
+    width: 150px;
+    border: 1px;
+    font-size: 20px;
+    text-decoration-line: none;    
+    border-color: black;
+    fill: blue;
+    padding: 40px;
+}
+
+.nav{
+    size: 100000px;
+    
+
+
+}
+.nav__a{
+    
+    size: 2500px;
+    position: relative ;
+    top: 10px;
+
+}
+
+.nav__div{
+
+    
+    background-image: url(../Assets/Imagenes/web\ cámaras.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 10px;
+    
+}
+
+.nav__div1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: initial;
+}
+.nav__h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 72px;
+    text-align: center;
+    }
+
+.divspace{
+    width: 100%;
+    height: 50px;
+    background-color:white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: black;
+}
+
+.footer{
+    width: 100%;
+    }
+.footer__p1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.footer__h6{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.h2seguridad{
+    font-size: 24px;
+    font-style: italic;
+    border-bottom: dotted 0.5px gray;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    
+}
+
+.divseguridad{
+    display: flex;
+    align-items: center;
+   
+}
+
+.divseguridad__aside{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 40px;
+    text-align: justify;
+}
+.h1seguyelect{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+
+    }
+
+
+.divtrabajos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    size: 1500px;
+    }
+
+.divtrabajos__img{
+    border-radius: 5px;
+}
+
+.divtrabajos__video{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+       }
+
+.formcontacto{
+    background-color: RGB(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.formcontacto__div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+   
+
+}
+
+
+.formcontacto__divta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.formcontacto__ta{
+    width: 80%;
+    margin-left: 100px;
+    
+}
+
+.formcontacto__divbot{
+    display: flex;  
+    justify-content: space-evenly;
+
+}
